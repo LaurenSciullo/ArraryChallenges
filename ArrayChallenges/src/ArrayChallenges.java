@@ -10,7 +10,7 @@ public class ArrayChallenges
 			System.out.println("Hello! How many favorite sweets do you have?");
 				
 			int numberOfSweets = userInput.nextInt();
-		
+	
 			
 			String[] printSweets = new String[numberOfSweets];
 			
@@ -32,6 +32,7 @@ public class ArrayChallenges
 									System.out.println(p);	
 								}
 						}
+							
 					else 
 						{
 					System.out.println("Your sweets: ");
@@ -42,7 +43,8 @@ public class ArrayChallenges
 						}
 					
 						}
+						
 					
 			}
-
+						
 	}
