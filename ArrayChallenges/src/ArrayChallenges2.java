@@ -8,6 +8,7 @@ public class ArrayChallenges2 {
 		System.out.println("Hello!");
 		
 		int[] printNumbers = new int[8];
+		
 		for (int i = 0; i < 8; i++ )
 		{
 			System.out.println("Please input a number: ");
@@ -17,35 +18,25 @@ public class ArrayChallenges2 {
 		}
 		
 		
-		System.out.println("Your even numbers sum: ");
+		
+		System.out.println("Your even numbers: ");	
 		for (int p: printNumbers)
 		{
-			int sum = 0;
-		if (p%2 ==0)
-		{
-			
-			
-			for (int i = 0 ; i <= p; i ++ )	
+			if (p%2 ==0)
 			{
-		sum += i;
-			}
-			System.out.println(sum);
-		
+			System.out.println(p);
 		}
 		}
+	
 		
-		System.out.println("Your odd numbers sum: ");
+		
+		System.out.println("Your odd numbers: ");
 		for (int p: printNumbers)
 		{
-			int sum = 0;
 		if (p%2 != 0)
 		{
-			
-			for (int i = 0 ; i <= p; i ++ )	
-			{
-		sum += i;
-			}
-			System.out.println(sum);
+
+			System.out.println(p);
 		
 		}
 		}
