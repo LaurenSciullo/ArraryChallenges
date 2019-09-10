@@ -14,8 +14,6 @@ public class ArrayChallenges3 {
 			printNumbers [p] = randomNumber;
 			
 		}
-	
-		
 		
 		
 	}
