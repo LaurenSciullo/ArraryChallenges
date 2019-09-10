@@ -6,21 +6,23 @@ public class ArrayChallenges3 {
 		int[] printNumbers = new int[5];
 		
 		System.out.println("Your 5 random numbers: ");
-		for (int p: printNumbers)
+		for (int i = 0; i < 5; i++)
 		{
 			int randomNumber = (int)(Math.random()*91+10);
 			
 			System.out.println(randomNumber);
 			
-			printNumbers [p] = randomNumber;
-			
+			printNumbers [i] = randomNumber;
+	
 		}
 		
 		System.out.println("\nYour 5 random numbers backwords: ");
-		for (int i = 5; i >= 0; i--)
+		
+		for (int i = 4; i >= 0; i--)
 			{
-				System.out.println(printNumbers);
+				System.out.println(printNumbers[i]);
 			}
+			
 		
 	}
 
